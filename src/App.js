@@ -1,5 +1,4 @@
 import Style from "styled-components";
-// import "./App.css";
 import Header from "./components/Header";
 // const funcaoTeste = () => "NADA";
 

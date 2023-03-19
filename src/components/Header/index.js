@@ -1,11 +1,10 @@
+import styled from "styled-components";
 import IconesHeader from "../../components/IconesHeader";
 import { logo as Logo } from "../../components/logo";
 import OpcoesHeader from "../../components/opcoesHeader";
-// import "./style.css";
-import Style from "styled-components";
 
-const HeaderContainer = Style.header`
-  display: flex; 
+const HeaderContainer = styled.header`
+  display: flex;
   background-color: #fff;
   justify-content: center;
 `;

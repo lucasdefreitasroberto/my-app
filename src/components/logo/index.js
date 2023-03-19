@@ -1,15 +1,24 @@
+import styled from "styled-components";
 import imgLogo from "../../img/logo.svg";
-import "./style.css";
+
+const LogoCountainer = styled.div`
+  display: flex;
+  font-size: 30px;
+  margin-right: 10px;
+`;
+const ImgCountainer = styled.img`
+  margin-right: 10px;
+`;
 
 function logo() {
   return (
-    <div className="Logo">
-      <img src={imgLogo} alt="logo" className="logo-img"></img>
+    <LogoCountainer>
+      <ImgCountainer src={imgLogo} alt="logo" />
       <p>
         <strong>Ativa</strong>
         <u>Books</u>
       </p>
-    </div>
+    </LogoCountainer>
   );
 }
 
