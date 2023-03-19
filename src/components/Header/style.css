@@ -1,0 +1,5 @@
+.App-header {
+  display: flex; /*display na horizontal*/
+  background-color: #fff;
+  justify-content: center;
+}
